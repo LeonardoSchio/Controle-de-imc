@@ -12,7 +12,6 @@ public class Pessoa {
     }
 
     public void imprime() {
-        System.out.println("==== Divisão ====");
         System.out.println(this.nome);
         System.out.println(this.peso);
         System.out.println(this.altura);
