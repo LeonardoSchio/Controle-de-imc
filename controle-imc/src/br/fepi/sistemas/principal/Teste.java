@@ -33,7 +33,7 @@ public class Teste {
 
         System.out.println("\n === Pessoas cadastradas ===");
         for (Pessoa p : pessoas) {
-            p.imprime();
+            System.out.println(p.toString());
             System.out.println("IMC: " + p.exibirImc());
             System.out.println("Classificar IMC: " + p.classificarImc());
             System.out.println();

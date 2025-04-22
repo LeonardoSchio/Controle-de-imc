@@ -11,10 +11,11 @@ public class Pessoa {
         this.altura = altura;
     }
 
-    public void imprime() {
-        System.out.println(this.nome);
-        System.out.println(this.peso);
-        System.out.println(this.altura);
+    @Override
+    public String toString() {
+        return "Nome: " + nome +
+                " \nPeso: " + peso +
+                " \nAltura: " + altura;
     }
 
     public double exibirImc() {
