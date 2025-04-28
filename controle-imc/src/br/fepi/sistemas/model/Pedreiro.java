@@ -7,6 +7,6 @@ public class Pedreiro extends Pessoa {
 
     @Override
     public String toString() {
-        return "*Pedreiro* \n" + super.toString();
+        return "*Pedreiro* \n" + dadosBasicos();
     }
 }

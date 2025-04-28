@@ -11,11 +11,16 @@ public class Pessoa {
         this.altura = altura;
     }
 
-    @Override
-    public String toString() {
+    protected String dadosBasicos() {
         return "Nome: " + nome +
                 " \nPeso: " + peso +
                 " \nAltura: " + altura;
+    }
+
+    @Override
+    public String toString() {
+        return "*Pessoa comum* \n" + dadosBasicos();
+
     }
 
     public double exibirImc() {
